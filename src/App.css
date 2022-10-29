@@ -1,0 +1,56 @@
+.carousel-item img {
+    max-height: 380;
+    min-width: auto;
+    opacity: 0.15;
+}
+.carousel-inner {
+max-height: 345px;
+}
+.navcarousel{
+    
+    z-index: 99;
+}
+.carou{
+    margin-top: -56px;
+}
+.thecaro{
+    background-color: transparent !important;
+}
+
+@media only screen and (min-width: 992px) {
+    .homeNavLi a {
+        /* padding-left: 110px;
+        padding-right: 110px; */
+        margin-right: 35px;
+        margin-left: 35px;
+    }
+    .homeNavUl{
+        padding-right: 60px;
+        margin-right: 45px;
+    }
+}
+
+.homeNavLi a {
+    color: #111111;
+    font-family: "Montserrat";
+}
+.Logo{
+    /* padding-top: -10px; */
+    margin-top: -10px;
+}
+.Logo-link{
+    margin-left: 180px;
+}
+.overlay { 
+    color:#1B4DE0;
+    position:absolute;
+    z-index:12;
+    top:28%;
+    left:0;
+    width:100%;
+    text-align:center;
+    font-family: "Montserrat" !important;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: #5d85fd !important;
+}
