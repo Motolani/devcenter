@@ -1,13 +1,24 @@
 import React from "react";
-import HomeNav from "../inc/HomeNav.js"
+import Footer from "../inc/Footer/Footer.js";
+import CodingStack from "../inc/Home/CodingStack.js";
+import Hire from "../inc/Home/Hire.js";
+import HomeNav from "../inc/Home/HomeNav.js"
+import HomeValuesSectionOne from "../inc/Home/HomeValuesSection.js";
+import HomeValuesSectionTwo from "../inc/Home/HomeValuesSectionTwo.js";
+import ReadBlog from "../inc/Home/ReadBlog.js";
+import WorkedFor from "../inc/Home/WorkedFor.js";
 
 const Home = () => {
     return(
         <div>
             <HomeNav />
-            <div className="container-fluid">
-                
-            </div>
+            <HomeValuesSectionOne />
+            <HomeValuesSectionTwo />
+            <ReadBlog />
+            <WorkedFor />
+            <CodingStack />
+            <Hire />
+            <Footer />
         </div>
         
     );

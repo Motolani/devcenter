@@ -1,4 +1,4 @@
-.carousel-item img {
+.navCaroImg {
     max-height: 380;
     min-width: auto;
     opacity: 0.15;
@@ -19,8 +19,6 @@ max-height: 345px;
 
 @media only screen and (min-width: 992px) {
     .homeNavLi a {
-        /* padding-left: 110px;
-        padding-right: 110px; */
         margin-right: 35px;
         margin-left: 35px;
     }
@@ -32,7 +30,7 @@ max-height: 345px;
 
 .homeNavLi a {
     color: #111111;
-    font-family: "Montserrat";
+    font-family: "Monstserrat";
 }
 .Logo{
     /* padding-top: -10px; */
@@ -45,12 +43,605 @@ max-height: 345px;
     color:#1B4DE0;
     position:absolute;
     z-index:12;
-    top:28%;
+    top:24%;
     left:0;
     width:100%;
     text-align:center;
-    font-family: "Montserrat" !important;
+    font-family: "Monstserrat" !important;
 }
 .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
     color: #5d85fd !important;
 }
+.valuesOneText p {
+   padding-top: 20px;
+   font-family: "Monstserrat" !important;
+}
+
+.row-two{
+    padding-top: 20px;
+}
+.values-text{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.values-img img{
+    max-height: 200px;
+}
+.homeValuesSectionOne{
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    padding-top: 30px;
+}
+.HomeValuesSectionTwo{
+    padding-top: 45px;
+    font-family: "Monstserrat" !important;
+    padding-bottom: 100px;
+}
+.content h4{
+    padding-top: 32px;
+}
+.content p{
+    padding-top: 18px;
+}
+.section-two{
+    padding-top: 65px;
+}
+.relevance h3 {
+    color: rgba(27, 77, 224, 1);
+}
+.relevance p {
+    padding-top: 10px;
+}
+.inner-row{
+    padding-top: 22px;
+}
+.inner-row span {
+    font-size: 14px;
+    /* padding-top: -15px; */
+}
+.progressbarone{
+    width: 98%
+}
+.progressbartwo{
+    width: 100%
+}
+.progressbarfour{
+    width: 95%
+}
+.readBlog{
+    background-color: black;
+    padding-top: 75px;
+    font-family: "Monstserrat" !important;
+}
+.blog-p1{
+    color: white;
+}
+.blog-p2{
+    color: white;
+}
+.homeBlogImg{
+    max-width: 1072px;
+    max-height: 326px;
+}
+
+@media only screen and (max-width: 1260px) {
+    .homeBlogImg{
+        max-width: 600px;
+    max-height: 326px;
+    }
+}
+
+@media only screen and (max-width: 638px) {
+    .homeBlogImg{
+        max-width: 250px;
+    max-height: 326px;
+    }
+}
+@media only screen and (max-width: 217px) {
+    .homeBlogImg{
+        max-width: 150px;
+        max-height: 326px;
+    }
+}
+@media only screen and (max-width: 414px) {
+    .overlay h1{
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 820px) {
+    .overlay h1{
+        font-size: 25px;
+    }
+}
+.btnHomeBlog{
+    color: white !important;
+    margin-left: 30px;
+}
+.workedFor{
+    padding-top: 20px;
+    font-family: "Monstserrat" !important;
+}
+.workedForCarousel{
+    max-height: 100px;
+    max-width: 303px;
+    /* border-radius: 30% !important; */
+}
+.inner-carou img{
+    border-radius: 30px !important;
+    max-height: 55px !important;
+    max-width: 170px !important;    
+}
+.extra{
+    padding-top: 10px !important;
+}
+.borderr{
+    border: 1px solid rgb(215, 213, 213) !important;
+    max-height: 89px !important;
+    max-width: 255px !important;
+    border-radius: 30px !important;
+    box-shadow: -6px -3px 2px 0px rgba(0, 0, 0, 0.17);
+
+}
+.coddingStack{
+    padding-top: 40px;
+    font-family: "Monstserrat" !important;
+}
+
+@media only screen and (max-width: 767px) {
+    .pill-carou{
+        padding-top: 40px;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .pill-carou{
+        display: block;
+        margin-left: 45%;
+    }
+}
+@media only screen and (max-width: 390px) {
+    .pill-carou{
+        /* display: block; */
+        margin-left: 29%;
+    }
+}
+.stackBorder{
+    /* position: relative; */
+    max-width: 334px;
+    max-height: 72px;
+    background: rgba(241, 242, 245, 0.6);
+    border: 2px solid rgb(241, 242, 245, 0.6) !important;
+    display: flex;
+    align-items: center;
+    border-radius: 15px !important;
+}
+
+.stackImg{
+    padding-left: 15px;
+    
+}
+.img_div{
+    display: flex;
+    align-items: center;
+}
+@media only screen and (max-width: 970px) {
+    .coddingStack{
+        display: none;
+    }
+}
+.hire-border{
+    border: 1px solid rgba(171, 171, 171, 0.6) !important;
+    width: 127px !important;
+    height: 100px;
+    border-radius: 20px;
+    display: flex;
+}
+.Hire{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right bottom;
+    font-family: "Monstserrat" !important;
+    padding-bottom: 150px;
+    /* background-size: auto; */
+    /* padding-top: 30px; */
+}
+.HireOurTalent p{
+    size: 20px
+}
+.hire-btn{
+    border: 1px solid rgba(171, 171, 171, 0.6) !important;
+}
+.hire-span{
+    size: 10px
+}
+
+@media only screen and (max-width: 655px) {
+    .hire-border{
+        width: 84px !important;
+        height: 60px;
+        background-size: 80px 60px;
+    }
+}
+@media only screen and (max-width: 1312px) {
+    .hire-border{
+        width: 100px !important;
+        height: 80px;
+        background-size: 95px 80px;
+    }
+}
+@media only screen and (max-width: 1045px) {
+    .hire-border{
+        width: 90px !important;
+        height: 70px;
+        background-size: 85px 70px;
+    }
+}
+@media only screen and (max-width: 930px) {
+    .hire-border{
+        width: 75px!important;
+        height: 55px;
+        background-size: 75px 55px;
+    }
+}
+@media only screen and (max-width: 385px) {
+    .hire-border{
+        width: 55px!important;
+        height: 35px;
+        background-size: 55px 35px;
+    }
+}
+.Footer{
+    position: absolute;
+    width: 100vw;
+    height: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+    font-family: "Monstserrat" !important;
+    box-sizing: border-box !important;
+    /* padding-bottom: 325px; */
+}
+.FooterTop{
+    padding-top: 60px;
+}
+/* .FooterBottom{
+    position: relative;
+    width: 1036px;
+    height: 232px;
+    left: 476px;
+    background-position: bottom;
+} */
+
+.FooterBottom{
+    border: 1px solid rgba(21, 138, 167, 0.6) !important;
+    height: 232px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.FootSecOne p{ 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    
+    color: #FFFFFF;
+}
+
+.FooterNav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+    color: white;
+    list-style-type: none;
+}
+/* @media only screen and (max-width: 445px) {
+    .Logo{
+        display: block;
+        margin-left: auto;
+    }
+} */
+.contactsFooter{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 164.4%;
+    /* or 16px */
+    
+    
+    color: #FFFFFF;
+}
+.socialsFooter{
+    border: 1px solid rgba(136, 171, 182, 1) !important;
+    width: 32px;
+    height: 32px; 
+    border-color: rgba(136, 171, 182, 1);
+    background-color: rgba(136, 171, 182, 1);
+    border-radius: 50%;
+}
+.SocialFoot{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 2px;
+}
+
+.queryHeader{
+    display: none;
+}
+.mobileHeader{
+    display: none;
+    
+    
+}
+@media only screen and (max-width: 1161px) {
+    .Footer{
+        width: 1061px;
+        /* display: none; */
+    }
+
+}
+@media only screen and (max-width: 1021px) {
+    .Footer{
+        /* width: 1001px; */
+        display: none;
+    }
+    .mobileHeader{
+        display: block;
+        width: 100vw;
+        height: auto;
+        position: absolute;
+    }
+
+}
+@media only screen and (max-width: 1021px) {
+    .FooterNav{
+        /* width: 1001px; */
+        display: none;
+    }
+}
+@media only screen and (max-width: 1085px) {
+    .nav-link{
+        font-size: 13px !important;
+    }
+}
+@media only screen and (max-width: 1119px) {
+    .nav-link{
+        font-size: 9px !important;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .Logo-link{
+        margin-left: 45px;
+    }
+    .homeNavUl{
+        padding-bottom: 50px;
+    }
+}
+.FooterTwo{
+    border: 1px solid rgba(21, 138, 167, 0.6) !important;
+    height: 232px;
+    background-repeat: no-repeat;
+    position: relative;
+    ;
+}
+.mobileHeaderFont p{
+    color: white;
+    font-size: 13px;
+    padding-top: 10px;
+}
+.mobileFooterNav ul{
+    color: white;
+    list-style-type: none;
+    line-height: 40px;
+    padding-top: 10px;
+}
+
+@media only screen and (max-width: 540px) {
+    .copyright{
+        display: none;
+    }
+}
+@media only screen and (max-width: 280px) {
+    .overlay h1{
+        font-size: 15px;
+    }
+}
+
+/*Footer Query Start*/
+@media only screen and (max-width: 3500px) {
+    .Footer{
+        background-size: 3500px;
+        width: 100vw;
+    }
+    .FooterBottom{
+        background-size: 2548px;
+        width: 100vw;
+    }
+}
+
+@media only screen and (max-width: 3343px) {
+    .Footer{
+        background-size: 3343px;
+        width: 100vw;
+    }
+}
+@media only screen and (max-width: 3202px) {
+    .Footer{
+        background-size: 3202px;
+        width: 100vw;
+    }
+}
+@media only screen and (max-width: 3100px) {
+    .Footer{
+        background-size: 3100px;
+        width: 100vw;
+    }
+}
+@media only screen and (max-width: 3000px) {
+    .Footer{
+        background-size: 3000px;
+        width: 100vw;
+    }
+}
+@media only screen and (max-width: 2870px) {
+    .Footer{
+        background-size: 2800px;
+        width: 100vw;
+    }
+}
+@media only screen and (max-width: 2750px) {
+    .Footer{
+        background-size: 2708px;
+        width: 100vw;
+    }
+}
+
+@media only screen and (max-width: 2708px) {
+    .Footer{
+        background-size: 2600px;
+        width: 100vw;
+    }
+}
+
+@media only screen and (max-width: 2697px) {
+    .Footer{
+        background-size: 2697px;
+        width: 100vw;
+    }
+    .FooterBottom{
+        background-size: 2548px;
+        width: 100vw;
+    }
+}
+
+@media only screen and (max-width: 2552px) {
+    .Footer{
+        background-size: 2532px;
+        width: 100vw;
+    }
+
+}
+
+@media only screen and (max-width: 2450px) {
+    .Footer{
+        background-size: 2400px;
+        width: 100vw;
+    }
+
+}
+@media only screen and (max-width: 2250px) {
+    .Footer{
+        background-size: 2200px;
+        width: 100vw;
+    }
+
+}
+@media only screen and (max-width: 2151px) {
+    .Footer{
+        background-size: 2100px;
+        width: 100vw;
+    }
+
+}
+@media only screen and (max-width: 1950px) {
+    .Footer{
+        background-size: 1900px;
+        width: 100vw;
+    }
+
+}
+@media only screen and (max-width: 1830px) {
+    .Footer{
+        background-size: 1800px;
+        width: 100vw;
+    }
+
+}
+@media only screen and (max-width: 1700px) {
+    .Footer{
+        background-size: 1700px;
+        width: 100vw;
+    }
+
+}
+@media only screen and (max-width: 1700px) {
+    .Footer{
+        background-size: 1700px;
+        width: 100vw;
+    }
+
+}
+@media only screen and (max-width: 1630px) {
+    .Footer{
+        background-size: 1600px;
+        width: 100vw;
+    }
+}
+@media only screen and (max-width: 1590px) {
+    .Footer{
+        background-size: 1590px;
+        width: 100vw;
+    }
+}
+@media only screen and (max-width: 1520px) {
+    .Footer{
+        background-size: 1500px;
+        width: 100vw;
+    }
+}
+
+@media only screen and (max-width: 1450px) {
+    .Footer{
+        background-size: 1430px;
+        width: 100vw;
+    }
+}
+@media only screen and (max-width: 1380px) {
+    .Footer{
+        background-size: 1380px;
+        width: 100vw;
+    }
+}
+@media only screen and (max-width: 1340px) {
+    .Footer{
+        background-size: 1300px;
+        width: 100vw;
+    }
+}
+@media only screen and (max-width: 1280px) {
+    .Footer{
+        background-size: 1280px;
+        width: 100vw;
+    }
+}
+
+@media only screen and (max-width: 1253px) {
+    .Footer{
+        background-size: 1240px;
+        width: 100vw;
+    }
+}
+@media only screen and (max-width: 1210px) {
+    .Footer{
+        background-size: 1188px;
+        width: 100vw;
+    }
+}
+@media only screen and (max-width: 1160px) {
+    .Footer{
+        background-size: 1130px;
+        width: 100vw;
+    }
+}
+
+@media only screen and (max-width: 1059px) {
+    .Footer{
+        background-size: 1010px;
+        width: 100vw;
+    }
+}
+
+
+/* Footer Query End*/

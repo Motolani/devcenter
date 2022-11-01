@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../../App.css";
-import CarouselImg1 from "../images/navcarousel1.png";
-import CarouselImg2 from "../images/navcarousel2.jpeg";
-import CarouselImg3 from "../images/navcarousel3.jpeg";
-import Logo from "../images/logo.png";
+import "../../../App.css";
+import CarouselImg1 from "../../images/navcarousel1.png";
+import CarouselImg2 from "../../images/navcarousel2.jpeg";
+import CarouselImg3 from "../../images/navcarousel3.jpeg";
+import Logo from "../../images/logo.png";
 
 const HomeNav = () => {
     return(
@@ -44,9 +44,10 @@ const HomeNav = () => {
             </div>
           </nav>
           <div className="carou">
-            <div class="overlay"><h1>Building Scalable Solutions</h1></div>
+            
             <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
               <div className="carousel-inner">
+              <div className="overlay pt-5"><h1 className="fw-bold pt-4">Building Scalable Solutions</h1></div>
                 <div className="carousel-item active">
                   <img src={CarouselImg1} className="d-block w-100 navCaroImg" alt="..."/>
                 </div>
