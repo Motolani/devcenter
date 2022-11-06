@@ -645,3 +645,488 @@ max-height: 345px;
 
 
 /* Footer Query End*/
+
+/*ABOUT STYLES */
+.AboutNav{
+    font-family: "Monstserrat" !important;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100vw;
+    height: auto;
+}
+
+.aboutPostContent{
+    /* position: relative; */
+    /* width: 100vw;*/
+    height: 610px;
+
+    /* margin-top: -70px; */
+}
+.home-link{
+    color: white !important;
+}
+.leftContent h1{
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 134.4%;
+    letter-spacing: 1.5px;
+    color: #FFFFFF;
+    margin-left: 120px;
+}
+.leftContent p{
+    font-style: normal;
+    font-weight: 500;
+    line-height: 133.9%;
+    color: #FFFFFF;
+    margin-left: 120px;
+    font-size: 20px;
+}
+.AboutLogoExtras{
+    margin-left: -40px;
+}
+.AboutGetStarted{
+    color: white !important;
+    border: 1px solid rgb(215, 213, 213) !important;
+    margin-left: 120px;
+}
+.AboutGetStarted:hover{
+    color: #1B4DE0 !important;
+    border: 1px solid #10f3ff !important;
+    
+}
+.ImgNav{
+    border: 1px solid #3fa1f7 !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 457px;
+    border-radius: 10px;
+}
+.CompanyProfile{
+    background-color: white;
+    font-family: "Monstserrat" !important;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.profileContent1 p{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: justify;
+}
+.heading h3{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+}
+.profileContent2 p{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: justify;
+}
+
+.SixDSection {
+    /* width: 1514px; */
+    /* height: 800px; */
+    font-family: "Monstserrat" !important;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100vw;
+    height: auto;
+    padding-top: 25px;
+}
+.first-row{
+    margin-left: 80px;
+}
+.first-row h1{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 49px;
+    color: #FFFFFF;
+}
+.first-row p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.sixDImg{
+    max-width: 100%;
+    max-height: 351px;
+}
+.second-row{
+    margin-left: 60px;
+}
+.second-row h1{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.72px;
+    color: #FFFFFF;
+}
+.second-row p{
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.72px;
+}
+.third-row{
+    margin-left: 60px;
+    margin-right: 30px;
+}
+.third-row h1{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.72px;
+    color: #FFFFFF;
+}
+.third-row p{
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.72px;
+}
+.theRowSixD{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-size: cover; */
+    background-position: right bottom;
+}
+
+.Mission{
+    font-family: "Monstserrat" !important;
+    padding-top: 50px;
+    background-color: #FFFFFF;
+}
+.Mission-left{
+    padding-left: 77px;
+}
+.mission-left-img{
+    width: 332px;
+    height: 72.5px; 
+    /* align-items: "center"; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mission-left-img h2{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+}
+.Mission-left p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+.mission-right-img{
+    border: 1px solid rgba(71, 187, 203, 0.96) !important;
+    border-radius: 30px !important;
+    width: 100%;
+    height: 465px;
+    background-size: cover;
+}
+.Feedback{
+    font-family: "Monstserrat" !important;
+    background-color: #FFFFFF;
+    margin-bottom: 40px;
+}
+.feedback-heading h2{
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 49px;
+}
+.feedback-img{
+    width: 60px;
+    height: 60px;   
+    box-shadow: 1px 7px 5px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(130, 130, 130, 0.25) !important;
+    border-radius: 50%;
+    
+}
+.feedback-border{
+    border: 1px solid #ffffff !important;
+    width: 100%;
+    height: 323px;
+    background: #FFFFFF;
+    box-shadow: 2px 7px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    
+
+    
+}
+
+.feedback-border-img{
+    z-index:12;
+    width: 60px;
+    height: 60px;   
+    box-shadow: 1px 7px 5px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(130, 130, 130, 0.25) !important;
+    border-radius: 50%;
+    margin-top: 100px;
+}
+.middle-man{
+    height: 90px;
+}
+.first-man{
+    margin-left: 40px;
+}
+.feedback-border-p1{
+    font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+}
+.border-content h3{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+}
+.border-content p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.7px;
+}
+
+.values-border{
+    border: 2px solid rgba(71, 187, 203, 0.96) !important;
+    border-radius: 30px !important;
+    max-height: 268px;
+    box-shadow: 1px 7px 5px rgba(0, 0, 0, 0.25);
+}
+.bulb_ptag{
+    font-size: 15.5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+@media only screen and (max-width: 1187px) {
+    .values-border p{
+        font-size: 13px;
+        padding-top: 3px;
+    }
+    .values-border h4{
+        font-size: 13px;
+    }
+}
+.img-7{
+    height: 49px;
+    width: 49px;
+}
+.About-Profile-BG{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-size: cover; */
+    background-position: right;
+}
+@media only screen and (min-width: 1518px) {
+    .home-link{
+        color: black !important;
+    }
+    
+}
+
+@media only screen and (max-width: 1167px) {
+    .offer-link{
+        color: white !important;
+    }
+}
+
+@media only screen and (max-width: 1084px) {
+    .blog-link{
+        color: white !important;
+    }
+}
+
+@media only screen and (max-width: 1178px) {
+    .leftContent p{
+        font-size: 17px !important;
+    }
+    .leftContent h1{
+        font-size: 40px !important;
+        margin-top: 60px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .ImgNav{
+        max-height: 342px;
+        max-width: 80%;
+        /* width: 80%; */
+        margin-top: 0px !important;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .ImgNavContainer{
+        padding-top: 0px !important;
+        margin-top: -60px !important;
+    }
+    .leftContent{
+        margin-top: -50px !important;
+        padding-top: 0px !important;
+    }
+    .CompanyProfile{
+        margin-top: 110px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .CompanyProfile{
+        margin-top: 150px !important;
+    }
+}
+@media only screen and (max-width: 517px) {
+    .CompanyProfile{
+        margin-top: 210px !important;
+    }
+}
+@media only screen and (max-width: 414px) {
+    .leftContent p{
+        font-size: 15px !important;
+    }
+    .leftContent h1{
+        font-size: 35px !important;
+        margin-top: 60px;
+    }
+    .leftContent{
+        margin-top: -100px !important;
+        padding-top: 0px !important;
+    }
+    .ImgNav{
+        max-height: 250px;
+    }
+    .CompanyProfile{
+        margin-top: 150px !important;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .SixDSection{
+        text-align: center !important;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .Mission{
+        text-align: center !important;
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+    }
+    .mission-left-img{
+        margin-left: 15%;
+    }
+    .mission-left-img p{
+        padding-left: -30px;
+    }
+    .mission-right-img{
+        margin-left: 20px;
+        height: 335px;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .mission-left-img{
+        margin-left: -20px;
+    }
+    .profileContent1 p{
+        font-size: 17px !important;
+        line-height: 25px !important;
+    }
+    .profileContent2 p{
+        font-size: 17px !important;
+        line-height: 25px !important;
+    }
+    .first-row h1{
+        font-size: 30px !important;
+        line-height: 40px !important;
+    }
+    .first-row p{
+        font-size: 18px !important;
+        line-height: 25px;
+    }
+    .first-row{
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+    }
+    .second-row{
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+    }
+    .third-row{
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+        text-align: center !important;
+    }
+    .leftContent h1 {
+        letter-spacing: 1.5px;
+        margin-left: 80px;
+    }
+    .leftContent p {
+        margin-left: 80px;
+        margin-right: 20px;
+    }
+    
+}
+.mobileView{
+    display: none;
+}
+@media only screen and (max-width: 1021px){
+    .normalView{
+        display: none;
+    }
+    .mobileView{
+        display: block;
+    }
+    .border-content{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .mission-left-img{
+        margin-left: 20%;
+    }
+}
+@media only screen and (max-width: 585px) {
+    .mission-left-img{
+        margin-left: 12%;
+    }
+}
+@media only screen and (max-width: 502px) {
+    .mission-left-img{
+        margin-left: 5%;
+    }
+}
+@media only screen and (max-width: 432px) {
+    .mission-left-img{
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .CompanyProfile{
+        margin-top: 280px !important;
+    }
+}
+@media only screen and (max-width: 414px) {
+    .CompanyProfile{
+        margin-top: 150px !important;
+    }
+}
+@media only screen and (max-width: 413px) {
+    .feedback-border-p1{
+        font-size: 14px !important;
+        line-height: 17px !important;
+    }
+}

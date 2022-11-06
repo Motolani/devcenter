@@ -28,16 +28,16 @@ const HomeNav = () => {
                 </ul>
                 <ul className="navbar-nav mb-2 mb-lg-0 homeNavUl">
                     <li className="nav-item homeNavLi">
-                        <Link className="nav-link active" aria-current="page" to="/">Home</Link>
+                        <Link className="nav-link active fw-bold" aria-current="page" to="/">Home</Link>
                     </li>
                     <li className="nav-item homeNavLi">
-                        <Link className="nav-link" to="/about">About Us</Link>
+                        <Link className="nav-link fw-bold" to="/about">About Us</Link>
                     </li>
                     <li className="nav-item homeNavLi">
-                        <Link className="nav-link" to="/offer">What We Offer</Link>
+                        <Link className="nav-link fw-bold" to="/offer">What We Offer</Link>
                     </li>
                     <li className="nav-item homeNavLi">
-                        <Link className="nav-link" to="/blog">Blog</Link>
+                        <Link className="nav-link fw-bold" to="/blog">Blog</Link>
                     </li>
                 </ul>
               </div>

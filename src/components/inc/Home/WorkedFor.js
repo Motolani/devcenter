@@ -6,7 +6,11 @@ import ImageFour from '../../images/four.png';
 import ImageFive from '../../images/five.png';
 import ImageSix from '../../images/six.png';
 import ImageSeven from '../../images/seven.png';
-import ImageEight from '../../images/eight.png';
+import ImageNine from '../../images/client1.jpeg';
+import ImageTen from '../../images/client2.jpeg';
+import ImageEleven from '../../images/client3.png';
+import ImageTwelve from '../../images/client4.png';
+import ImageThirteen from '../../images/client5.png';
 
 const WorkedFor = () => {
   return (
@@ -50,10 +54,10 @@ const WorkedFor = () => {
                 <div id="carouselExampleSlidesOnly stuff" className="carousel slide workedForCarousel" data-bs-ride="carousel">
                   <div className="carousel-inner">
                     <div className="carousel-item active inner-carou itemm">
-                      <img src={ImageTwo} className="d-block w-100" alt="..." />
+                      <img src={ImageFour} className="d-block w-100" alt="..." />
                     </div>
                     <div className="carousel-item inner-carou itemm">
-                      <img src={ImageSeven} className="d-block w-100" alt="..." />
+                      <img src={ImageFive} className="d-block w-100" alt="..." />
                     </div>
                     <div className="carousel-item inner-carou itemm">
                       <img src={ImageSix} className="d-block w-100" alt="..." />
@@ -66,13 +70,13 @@ const WorkedFor = () => {
                 <div id="carouselExampleSlidesOnly stuff" className="carousel slide workedForCarousel" data-bs-ride="carousel">
                   <div className="carousel-inner">
                     <div className="carousel-item active inner-carou itemm">
-                      <img src={ImageFour} className="d-block w-100" alt="..." />
+                      <img src={ImageSeven} className="d-block w-100" alt="..." />
                     </div>
                     <div className="carousel-item inner-carou itemm">
-                      <img src={ImageFive} className="d-block w-100" alt="..." />
+                      <img src={ImageNine} className="d-block w-100" alt="..." />
                     </div>
                     <div className="carousel-item inner-carou itemm">
-                      <img src={ImageTwo} className="d-block w-100" alt="..." />
+                      <img src={ImageTen} className="d-block w-100" alt="..." />
                     </div>
                   </div>
                 </div>
@@ -84,13 +88,13 @@ const WorkedFor = () => {
                 <div id="carouselExampleSlidesOnly stuff" className="carousel slide workedForCarousel" data-bs-ride="carousel">
                   <div className="carousel-inner">
                     <div className="carousel-item active inner-carou itemm">
-                      <img src={ImageOne} className="d-block w-100" alt="..." />
+                      <img src={ImageEleven} className="d-block w-100" alt="..." />
                     </div>
                     <div className="carousel-item inner-carou itemm">
-                      <img src={ImageTwo} className="d-block w-100" alt="..." />
+                      <img src={ImageTwelve} className="d-block w-100" alt="..." />
                     </div>
                     <div className="carousel-item inner-carou itemm">
-                      <img src={ImageThree} className="d-block w-100" alt="..." />
+                      <img src={ImageThirteen} className="d-block w-100" alt="..." />
                     </div>
                   </div>
                 </div>
@@ -100,13 +104,13 @@ const WorkedFor = () => {
                     <div id="carouselExampleSlidesOnly stuff" className="carousel slide workedForCarousel" data-bs-ride="carousel">
                   <div className="carousel-inner">
                     <div className="carousel-item active inner-carou itemm">
-                      <img src={ImageThree} className="d-block w-100" alt="..." />
+                      <img src={ImageTen} className="d-block w-100" alt="..." />
                     </div>
                     <div className="carousel-item inner-carou itemm">
-                      <img src={ImageSeven} className="d-block w-100" alt="..." />
+                      <img src={ImageOne} className="d-block w-100" alt="..." />
                     </div>
                     <div className="carousel-item inner-carou itemm">
-                      <img src={ImageSix} className="d-block w-100" alt="..." />
+                      <img src={ImageNine} className="d-block w-100" alt="..." width={'40px'}/>
                     </div>
                   </div>
                 </div>
@@ -116,10 +120,10 @@ const WorkedFor = () => {
                 <div id="carouselExampleSlidesOnly stuff" className="carousel slide workedForCarousel" data-bs-ride="carousel">
                   <div className="carousel-inner">
                     <div className="carousel-item active inner-carou itemm">
-                      <img src={ImageFour} className="d-block w-100" alt="..." />
+                      <img src={ImageFive} className="d-block w-100" alt="..." />
                     </div>
                     <div className="carousel-item inner-carou itemm">
-                      <img src={ImageFive} className="d-block w-100" alt="..." />
+                      <img src={ImageSeven} className="d-block w-100" alt="..." />
                     </div>
                     <div className="carousel-item inner-carou itemm">
                       <img src={ImageTwo} className="d-block w-100" alt="..." />

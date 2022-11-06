@@ -8,45 +8,53 @@ const HomeValuesSectionTwo = () => {
   return (
     <div className='text-center HomeValuesSectionTwo'>
       <div className="row content">
-        <div className="col-md-3">
-            <img src={Bulb} alt="bulb" height={40}/>
-            <h4 className='fw-bold'>Result</h4>
-            <p>
-                Our business objective is to conduct research, 
-                develop solutions, boost revenue, and 
-                become a millennial business that 
-                adds value to our customers.
-            </p>
+        <div className="col-lg-3 ">
+            <div class='values-border mb-4'>
+                <img src={Bulb} alt="bulb" height={40} className='mt-2'/>
+                <h4 className='fw-bold'>Result</h4>
+                <p class='bulb_ptag'>
+                    Our business objective is to conduct research, 
+                    develop solutions, boost revenue, and 
+                    become a millennial business that 
+                    adds value to our customers.
+                </p>
+            </div>
         </div>
-        <div className="col-md-3">
-            <img src={Ribbon} alt="Ribbon" height={40}/>
-            <h4 className='fw-bold'>Trust</h4>
-            <p>
-                We enforce trust, openness, teamwork, 
-                and integrity in all of our dealings to  
-                ensure that we can continue to 
-                collaborate with our clients
-            </p>
+        <div className="col-lg-3">
+            <div class='values-border mb-4'>
+                <img src={Ribbon} alt="Ribbon" height={40} className='mt-3'/>
+                <h4 className='fw-bold'>Trust</h4>
+                <p>
+                    We enforce trust, openness, teamwork, 
+                    and integrity in all of our dealings to  
+                    ensure that we can continue to 
+                    collaborate with our clients
+                </p>
+            </div>
         </div>
-        <div className="col-md-3">
-            <img src={Hands} alt="Handshake" height={40}/>
-            <h4 className='fw-bold'>Innovation</h4>
-            <p>
-                Using the tools and methods that are 
-                highly regarded in the tech industry, 
-                we constantly work to deliver fresh 
-                and innovative business solutions.
-            </p>
+        <div className="col-lg-3">
+            <div class='values-border mb-4'>
+                <img src={Hands} alt="Handshake" height={40} className='mt-3'/>
+                <h4 className='fw-bold'>Innovation</h4>
+                <p>
+                    Using the tools and methods that are 
+                    highly regarded in the tech industry, 
+                    we constantly work to deliver fresh 
+                    and innovative business solutions.
+                </p>
+            </div>
         </div>
-        <div className="col-md-3">
-            <img src={Star} alt="Star" height={40}/>
-            <h4 className='fw-bold'>Passion</h4>
-            <p>
-                We are passionate about delivering 
-                global excellence results to our 
-                customers, community, and 
-                people consistently.
-            </p>
+        <div className="col-lg-3">
+            <div class='values-border mb-4'>
+                <img src={Star} alt="Star" height={40} className='mt-3'/>
+                <h4 className='fw-bold'>Passion</h4>
+                <p>
+                    We are passionate about delivering 
+                    global excellence results to our 
+                    customers, community, and 
+                    people consistently.
+                </p>
+            </div>
         </div>
       </div>
       <div className='row section-two text-center'>
@@ -69,7 +77,7 @@ const HomeValuesSectionTwo = () => {
         <div className="col-md-5">
             <div>
                 <div className='d-flex bd-highlight'>
-                    <span className='fw-bold me-auto p-2 bd-highlight'>Reult Oriented project</span>
+                    <span className='fw-bold me-auto p-2 bd-highlight'>Result Oriented project</span>
                     <span className='fw-bold p-2 bd-highlight'>98%</span>
                 </div>
                 <div className="progress">
