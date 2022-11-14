@@ -20,3 +20,7 @@ code {
   font-family: 'Monstserrat';
   src: local('Monstserrat'), url(./fonts/Montserrat/Montserrat-VariableFont_wght.ttf) format('truetype');
 }
+@font-face {
+  font-family: 'Space_Grotesk';
+  src: local('Space_Grotesk'), url(./fonts/Space_Grotesk/SpaceGrotesk-VariableFont_wght.ttf) format('truetype');
+}

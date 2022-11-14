@@ -39,6 +39,9 @@ const AboutNav = () => {
                     <li className="nav-item homeNavLi">
                         <Link className="nav-link blog-link fw-bold" to="/blog">Blog</Link>
                     </li>
+                    <li className="nav-item homeNavLi">
+                        <Link className="nav-link offer-nav-contact fw-bold" to="/contact">Contact Us</Link>
+                    </li>
                 </ul>
               </div>
             </div>

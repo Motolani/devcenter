@@ -6,6 +6,7 @@ import IgImg from '../../images/IG.png';
 import FbImg from '../../images/fb.png';
 import LinkedInImg from '../../images/linkedIn.png';
 import TwitterImg from '../../images/twitter.png';
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -39,7 +40,7 @@ const Footer = () => {
                                     <p>Address: 21 Nyesi Ibrahim Tella, Oral-Estate, Eleganza Bustop, Lekki - Epe Expy, Lagos </p>
                                 </div>
                                 <div className='col-4 text-center'>
-                                    <p>Call: <br /> 01 630 4704</p>
+                                    <p>Call: <br /> +234 1 630 4704</p>
                                 </div>
                             </div>
                             
@@ -49,16 +50,16 @@ const Footer = () => {
                     <div className='col-2 offset-1 pt-2'>
                         <div className='SocialFoot'>
                             <div className='socialsFooter text-center justify-content-center'>
-                                <a href=''><img src={IgImg} alt='IG' className='pt-1' width={16} /></a>
+                                <Link to=''><img src={IgImg} alt='IG' className='pt-1' width={16} /></Link>
                             </div>
                             <div className='socialsFooter text-center justify-content-center'>
-                                <a href=''><img src={FbImg} alt='FbImg' className='pt-1' width={16} /></a>
+                                <Link to=''><img src={FbImg} alt='FbImg' className='pt-1' width={16} /></Link>
                             </div>
                             <div className='socialsFooter text-center justify-content-center'>
-                                <a href=''><img src={LinkedInImg} alt='LinkedInImg' className='pt-1' width={16}  /></a>
+                                <Link to=''><img src={LinkedInImg} alt='LinkedInImg' className='pt-1' width={16}  /></Link>
                             </div>
                             <div className='socialsFooter text-center justify-content-center'>
-                                <a href=''><img src={TwitterImg} alt='TwitterImg' className='pt-1' width={16} /></a>
+                                <Link to=''><img src={TwitterImg} alt='TwitterImg' className='pt-1' width={16} /></Link>
                             </div>
                         </div>
                     </div>
@@ -102,16 +103,16 @@ const Footer = () => {
                         <div className='col-sm-2 offset-sm-1 pt-2'>
                             <div className='SocialFoot'>
                                 <div className='socialsFooter text-center justify-content-center'>
-                                    <a href=''><img src={IgImg} alt='IG' className='pt-1' width={16} /></a>
+                                    <Link to=''><img src={IgImg} alt='IG' className='pt-1' width={16} /></Link>
                                 </div>
                                 <div className='socialsFooter text-center justify-content-center'>
-                                    <a href=''><img src={FbImg} alt='FbImg' className='pt-1' width={16} /></a>
+                                    <Link to=''><img src={FbImg} alt='FbImg' className='pt-1' width={16} /></Link>
                                 </div>
                                 <div className='socialsFooter text-center justify-content-center'>
-                                    <a href=''><img src={LinkedInImg} alt='LinkedInImg' className='pt-1' width={16}  /></a>
+                                    <Link to=''><img src={LinkedInImg} alt='LinkedInImg' className='pt-1' width={16}  /></Link>
                                 </div>
                                 <div className='socialsFooter text-center justify-content-center'>
-                                    <a href=''><img src={TwitterImg} alt='TwitterImg' className='pt-1' width={16} /></a>
+                                    <Link to=''><img src={TwitterImg} alt='TwitterImg' className='pt-1' width={16} /></Link>
                                 </div>
                             </div>
                         </div>
@@ -132,16 +133,16 @@ const Footer = () => {
                         <div className=' pt-2'>
                             <div className='SocialFoot text-center justify-content-center pt-2'>
                                 <div className='socialsFooter '>
-                                    <a href=''><img src={IgImg} alt='IG' className='pt-1' width={16} /></a>
+                                    <Link to=''><img src={IgImg} alt='IG' className='pt-1' width={16} /></Link>
                                 </div>
                                 <div className='socialsFooter text-center justify-content-center'>
-                                    <a href=''><img src={FbImg} alt='FbImg' className='pt-1' width={16} /></a>
+                                    <Link to=''><img src={FbImg} alt='FbImg' className='pt-1' width={16} /></Link>
                                 </div>
                                 <div className='socialsFooter text-center justify-content-center'>
-                                    <a href=''><img src={LinkedInImg} alt='LinkedInImg' className='pt-1' width={16}  /></a>
+                                    <Link to=''><img src={LinkedInImg} alt='LinkedInImg' className='pt-1' width={16}  /></Link>
                                 </div>
                                 <div className='socialsFooter text-center justify-content-center'>
-                                    <a href=''><img src={TwitterImg} alt='TwitterImg' className='pt-1' width={16} /></a>
+                                    <Link to=''><img src={TwitterImg} alt='TwitterImg' className='pt-1' width={16} /></Link>
                                 </div>
                             </div>
                         </div>
@@ -161,7 +162,7 @@ const Footer = () => {
                             <li>About</li>
                             <li>Services</li>
                             <li>Blog</li>
-                            <li>FAQ</li>
+                            <li>Contact</li>
                         </ul>
                     </div>
                 </div>
