@@ -57,7 +57,7 @@ const AboutNav = () => {
                                 & web digital products for tech founders, start-UPS,<br />
                                 and mid & large-sized organisations<br />
                             </p>
-                            <button type="button" className="btn btn-outline-info rounded-pill btn-lg mt-4 fs-6 AboutGetStarted">Get Started</button>
+                            <Link to="/offer" className="btn btn-outline-info rounded-pill btn-lg mt-4 fs-6 AboutGetStarted">Get Started</Link>
                         </div>
                     </div>
                     <div className='col-lg-6'>

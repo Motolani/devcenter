@@ -60,7 +60,7 @@ const OfferNav = () => {
                             <h2>DevCenter Innovation</h2>
                             <h3>The new way to achieve <br /> your organisation's goal</h3>
                             <p className='offer-p2'>Devcenter Innovation Limited is a software <br />company that offers various services</p>
-                            <button type="button" className="btn btn-outline-primary rounded-pill btn-lg mt-4 fs-6 OfferGetStartedOffer">Get Started</button>
+                            <Link to="/offer" className="btn btn-outline-primary rounded-pill btn-lg mt-4 fs-6 OfferGetStartedOffer">Get Started</Link>
                         </div>
                     </div>
                     <div className='col-md-7'>

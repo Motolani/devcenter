@@ -1,7 +1,8 @@
 import React from 'react';
-import ImgOne from '../../images/latestPostOne.png'
-import ImgTwo from '../../images/latestPostTwo.png'
-import ImgThree from '../../images/latestPostThree.png'
+import ImgOne from '../../images/latestPostOne.png';
+import ImgTwo from '../../images/latestPostTwo.png';
+import ImgThree from '../../images/latestPostThree.png';
+import { Link } from "react-router-dom";
 
 const OfferBlogPosts = () => {
     return (
@@ -98,7 +99,7 @@ const OfferBlogPosts = () => {
             </div>
             
             <div className='col-lg-12 text-center pb-4'>
-                <button type="button" className="btn btn-outline-primary rounded-pill btn-lg mt-4 fs-6 OfferGetStartedOffer">  See all  </button>
+                <Link to="/blog" className="btn btn-outline-primary rounded-pill btn-lg mt-4 fs-6 OfferGetStartedOffer">  See all  </Link>
             </div>
         </div>
     </div>

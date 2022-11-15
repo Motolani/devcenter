@@ -29,11 +29,10 @@ const Footer = () => {
                     <div className='col-4 pt-3'>
                         <div className='FooterNav'> 
                             <ul>
-                                <li>Home</li>
-                                <li>About</li>
-                                <li>Services</li>
-                                <li>Blog</li>
-                                {/* <li>FAQ</li> */}
+                                <li><Link className="footerNav" to="/">Home</Link></li>
+                                <li><Link className="footerNav" to="/about">About</Link></li>
+                                <li><Link className="footerNav" to="/offer">We Offer</Link></li>
+                                <li><Link className="footerNav" to="/blog">Blog</Link></li>
                             </ul>
                             <div className='row pt-5 contactsFooter'>
                                 <div className='col-8 text-center'>
@@ -50,16 +49,16 @@ const Footer = () => {
                     <div className='col-2 offset-1 pt-2'>
                         <div className='SocialFoot'>
                             <div className='socialsFooter text-center justify-content-center'>
-                                <Link to=''><img src={IgImg} alt='IG' className='pt-1' width={16} /></Link>
+                                <a href='https://instagram.com/devcenter_africa?igshid=YmMyMTA2M2Y='><img src={IgImg} alt='IG' className='pt-1' width={16} /></a>
                             </div>
                             <div className='socialsFooter text-center justify-content-center'>
-                                <Link to=''><img src={FbImg} alt='FbImg' className='pt-1' width={16} /></Link>
+                                <a href=''><img src={FbImg} alt='FbImg' className='pt-1' width={16} /></a>
                             </div>
                             <div className='socialsFooter text-center justify-content-center'>
-                                <Link to=''><img src={LinkedInImg} alt='LinkedInImg' className='pt-1' width={16}  /></Link>
+                                <a href='https://www.linkedin.com/company/devcenterafrica/'><img src={LinkedInImg} alt='LinkedInImg' className='pt-1' width={16}  /></a>
                             </div>
                             <div className='socialsFooter text-center justify-content-center'>
-                                <Link to=''><img src={TwitterImg} alt='TwitterImg' className='pt-1' width={16} /></Link>
+                                <a href='https://twitter.com/devcenterafrica?s=11&t=4Z11r4vBfwR9OfTnbUdPEw' ><img src={TwitterImg} alt='TwitterImg' className='pt-1' width={16} /></a>
                             </div>
                         </div>
                     </div>

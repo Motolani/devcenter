@@ -1,5 +1,6 @@
-import React from 'react'
+import React from 'react';
 import BgImg from '../../images/co-workingSpaceBG.png';
+import { Link } from "react-router-dom";
 
 const CoWorkingSpace = () => {
     return (
@@ -10,7 +11,7 @@ const CoWorkingSpace = () => {
                         <div className='CoWorkingContent pt-5'>
                             <h3>Call us To Use our <br />Co-working Space</h3>
                             <p>A peaceful coworking environment that <br />enables uninterrupted work</p>
-                            <button type="button" className="btn btn-outline-primary rounded-pill btn-lg mt-4 fs-6 CoworkGetStarted">Call Us Now</button>
+                            <Link to="/contact" className="btn btn-outline-primary rounded-pill btn-lg mt-4 fs-6 CoworkGetStarted">Call Us Now</Link>
                         </div>
                     </div>
                 </div>

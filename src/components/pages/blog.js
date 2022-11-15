@@ -1,9 +1,14 @@
 import React from "react";
+import BlogContent from "../inc/blog/BlogContent";
+import BlogNav from "../inc/blog/BlogNav";
+import Footer from "../inc/Footer/Footer";
 
 const Blog = () => {
     return(
-        <div className="container">
-            <h2>Blog Page</h2>
+        <div>
+            <BlogNav />
+            <BlogContent />
+            <Footer />
         </div>
     );
 }

@@ -16,7 +16,7 @@ const HomeValuesSectionOne = () => {
                         for tech founders, start-ups, and <br />
                         mid & large-sized organisations
                     </p>
-                    <button type="button" className="btn btn-outline-primary rounded-pill btn-lg fs-6">Get Started</button>
+                    <Link to="/offer" className="btn btn-outline-primary rounded-pill btn-lg fs-6">Get Started</Link>
                 </div>
             </div>
             <div className='row row-two'>
@@ -24,7 +24,7 @@ const HomeValuesSectionOne = () => {
                     <h1 className='align-center'>Values that Holds us <br/> True and Accountable</h1>
                 </div>
                 <div className="col-md-4 float-right values-img">
-                    <img src={Image} alt='image'/>
+                    <img src={Image} alt="..."/>
                 </div>
             </div>
         </div>

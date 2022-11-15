@@ -18,6 +18,7 @@ import HireImg15 from '../../images/15.png';
 import HireImg16 from '../../images/16.png';
 import HireImg17 from '../../images/17.png';
 import HireImg18 from '../../images/18.png';
+import { Link } from "react-router-dom";
 
 const Hire = () => {
   return (
@@ -105,7 +106,7 @@ const Hire = () => {
               looking to develop a tech project and <br/>
               build a software development team 
             </p>
-            <button type="button" className="btn btn-light rounded-pill btn-lg fs-6 hire-btn mt-3"><span className='small'>Call Us Now</span></button>
+            <Link to="/contact" className="btn btn-light rounded-pill btn-lg fs-6 hire-btn mt-3"><span className='small'>Call Us Now</span></Link>
         </div>
       </div>
     </div>

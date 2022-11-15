@@ -2,9 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../../../App.css";
 import CarouselImg1 from "../../images/navcarousel1.png";
-import CarouselImg2 from "../../images/navcarousel2.jpeg";
-import CarouselImg3 from "../../images/navcarousel3.jpeg";
+import CarouselImg4 from "../../images/HomeBg2.png";
+import CarouselImg5 from "../../images/HomeBg3.png";
+import OverlayImg from "../../images/altView.png";
 import Logo from "../../images/logo.png";
+
 
 const HomeNav = () => {
     return(
@@ -50,15 +52,43 @@ const HomeNav = () => {
             
             <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
               <div className="carousel-inner">
-              <div className="overlay pt-5"><h1 className="fw-bold pt-4">Building Scalable Solutions</h1></div>
+              <div className="overlay">
+                <div className="row homeOverlayWeb">
+                  <div className="col-md-6 one">
+                    <h1>Seamless Innovation</h1>
+                    <p>
+                      As a global software development company Innovation sits <br />
+                      at the nexus  of business value creation and digitalization. <br />
+                      We want mid-sized and large-sized businesses, start-ups, <br />and tech entrepreneurs to have better experience developing <br />
+                      mobile and online digital goods.
+                    </p>
+                  </div>
+                  <div className="col-md-6 two">
+                    <img className='overlayimg' src={OverlayImg} alt=".." />
+                  </div>
+                </div>
+                
+                <div className="homeOverlayTab">
+                  <h1 className="fw-bold pt-4">Collaboration</h1>
+                  <p>
+                    To ensure that every project is built utilizing an AGILE methodology, <br />
+                    we collaborate with the finest procedures and policies <br />
+                    to identify the best solution to enhance and <br />
+                    integrate with your business requirements.
+                  </p>
+                </div>
+                <div className="homeOverlayMobile  pt-5">
+                  <h1 className="fw-bold pt-4">Building Scalable Solutions</h1>
+                </div>
+              </div>
                 <div className="carousel-item active">
                   <img src={CarouselImg1} className="d-block w-100 navCaroImg" alt="..."/>
                 </div>
                 <div className="carousel-item">
-                  <img src={CarouselImg2} className="d-block w-100 navCaroImg" alt="..."/>
+                  <img src={CarouselImg4} className="d-block w-100 navCaroImg" alt="..."/>
                 </div>
                 <div className="carousel-item">
-                  <img src={CarouselImg3} className="d-block w-100 navCaroImg" alt="..."/>
+                  <img src={CarouselImg5} className="d-block w-100 navCaroImg" alt="..."/>
                 </div>
               </div>
             </div>

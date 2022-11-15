@@ -13,6 +13,7 @@ import "../../../../node_modules/swiper/modules/effect-coverflow/effect-coverflo
 import "../../../../node_modules/swiper/modules/pagination/pagination.min.css";
 import "../../../../node_modules/swiper/modules/navigation/navigation.min.css";
 import SwiperCore, { EffectCoverflow, Pagination, Navigation } from "swiper/core";
+import { Link } from "react-router-dom";
 
 SwiperCore.use([EffectCoverflow, Pagination, Navigation]);
 
@@ -29,7 +30,7 @@ const WorkWeDone = () => {
                             <p> 
                                 We consistently deliver on contracts to stakeholders and <br/>ensure that every assignment we undertake meets the <br />needs of the client, thereby providing the solution <br />necessary for the business to grow
                             </p>
-                            <button type="button" className="btn btn-outline-primary rounded-pill btn-lg mt-4 fs-6 OfferGetStartedOffer ">Contact Us</button>
+                            <Link to="/contact" className="btn btn-outline-primary rounded-pill btn-lg mt-4 fs-6 OfferGetStartedOffer ">Contact Us</Link>
                         </div>
                     </div>
                     <div className='col-sm-12 pt-2'>
