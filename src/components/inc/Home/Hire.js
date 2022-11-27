@@ -106,7 +106,7 @@ const Hire = () => {
               looking to develop a tech project and <br/>
               build a software development team 
             </p>
-            <Link to="/contact" className="btn btn-light rounded-pill btn-lg fs-6 hire-btn mt-3"><span className='small'>Call Us Now</span></Link>
+            <Link to="/contact" className="btn btn-light rounded-pill btn-xl hire-btn mt-3"><span className='small'>Call Us Now</span></Link>
         </div>
       </div>
     </div>

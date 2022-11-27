@@ -47,7 +47,7 @@ const BlogNav = () => {
             <div className='blogImg'>
                 <div className='row'>
                     <div className='col-md-12'>
-                        <div className="overlay" >
+                        <div className="BlogOverlay" >
                             <div className="theOverlay pt-5 ">
                               <h1 className="fw-bold pt-4">Technology</h1>
                             </div>

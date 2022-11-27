@@ -15,14 +15,14 @@ import ImageThirteen from '../../images/client5.png';
 const WorkedFor = () => {
   return (
     <div className='workedFor pb-5'>
-      <div className='row section-two text-center justify-content-center'>
+      <div className='row section-two justify-content-center'>
         <div className="col-md-6 relevance">
             <h3 className='fw-bold'>Client’s We’ve Worked For</h3>
             <p>
             A fantastic business network to which we have <br/> 
             rendered a range of services, products, and talents
             </p>
-            <div className='row justify-content-center inner-row'>
+            <div className='row inner-row'>
                 <div className='col-4 text-start'>
                     <h2 className='fw-bolder'>60+</h2>
                     <span>Satisfied Clients</span>
@@ -33,7 +33,7 @@ const WorkedFor = () => {
                 </div>
             </div>
         </div>
-        <div className="col-sm-3 pill-carou">
+        <div className="col-md-3 pill-carou">
             <div className='borderr d-flex justify-content-center'>
                 <div id="carouselExampleSlidesOnly" className="carousel slide workedForCarousel " data-bs-ride="carousel">
                   <div className="carousel-inner">
@@ -83,7 +83,7 @@ const WorkedFor = () => {
             </div>
         </div>
         
-        <div className="col-sm-3 pill-carou">
+        <div className="col-md-3 pill-carou">
             <div className='borderr d-flex justify-content-center'>
                 <div id="carouselExampleSlidesOnly stuff" className="carousel slide workedForCarousel" data-bs-ride="carousel">
                   <div className="carousel-inner">

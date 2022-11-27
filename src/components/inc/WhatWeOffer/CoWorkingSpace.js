@@ -11,7 +11,7 @@ const CoWorkingSpace = () => {
                         <div className='CoWorkingContent pt-5'>
                             <h3>Call us To Use our <br />Co-working Space</h3>
                             <p>A peaceful coworking environment that <br />enables uninterrupted work</p>
-                            <Link to="/contact" className="btn btn-outline-primary rounded-pill btn-lg mt-4 fs-6 CoworkGetStarted">Call Us Now</Link>
+                            <Link to="/contact" className="btn btn-outline-primary rounded-pill btn-xl mt-4  CoworkGetStarted">Call Us Now</Link>
                         </div>
                     </div>
                 </div>

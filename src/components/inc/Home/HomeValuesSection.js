@@ -9,14 +9,7 @@ const HomeValuesSectionOne = () => {
         <div className='homeValuesSectionOne' style={{ backgroundImage:`url(${BgImg})` }}>
             <div className="row">
                 <div className="col-md-4 offset-md-4 text-center valuesOneText">
-                    <p >
-                        We are a global software development company with<br /> over a decade
-                        of experience in building mobile & web<br />  
-                        digital products
-                        for tech founders, start-ups, and <br />
-                        mid & large-sized organisations
-                    </p>
-                    <Link to="/offer" className="btn btn-outline-primary rounded-pill btn-lg fs-6">Get Started</Link>
+                    <Link to="/offer" className="btn btn-outline-primary rounded-pill btn-xl">Get Started</Link>
                 </div>
             </div>
             <div className='row row-two'>

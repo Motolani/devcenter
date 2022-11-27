@@ -25,7 +25,7 @@ const BlogContent = () => {
                     <div className='row theBlogContentSection'>
                         <div className='col-lg-6'>
                             <div className='theBlogContent'>
-                                <img src={ImgOne} alt='...' className='mx-auto d-block theBlogImg' />
+                                <img src={ImgOne} alt='...' className='mx-auto d-block theBlogImg img-fluid' />
                                 <div className='blog-wrap'>
                                     <div className='blog-span d-flex pt-3'>
                                         <span>
@@ -55,7 +55,7 @@ const BlogContent = () => {
                         
                         <div className='col-lg-6'>
                             <div className='theBlogContent'>
-                                <img src={ImgThree} alt='...' className='mx-auto d-block theBlogImg' />
+                                <img src={ImgThree} alt='...' className='mx-auto d-block theBlogImg img-fluid' />
                                 <div className='blog-wrap'>
                                     <div className='blog-span d-flex pt-3'>
                                         <span>
@@ -84,7 +84,7 @@ const BlogContent = () => {
                         
                         <div className='col-lg-6'>
                             <div className='theBlogContent'>
-                                <img src={Imgfour} alt='...' className='mx-auto d-block theBlogImg' />
+                                <img src={Imgfour} alt='...' className='mx-auto d-block theBlogImg img-fluid' />
                                 <div className='blog-wrap'>
                                     <div className='blog-span d-flex pt-3'>
                                         <span>
@@ -113,7 +113,7 @@ const BlogContent = () => {
                         
                         <div className='col-lg-6'>
                             <div className='theBlogContent'>
-                                <img src={Imgfive} alt='...' className='mx-auto d-block theBlogImg' />
+                                <img src={Imgfive} alt='...' className='mx-auto d-block theBlogImg img-fluid' />
                                 <div className='blog-wrap'>
                                     <div className='blog-span d-flex pt-3'>
                                         <span>
@@ -142,7 +142,7 @@ const BlogContent = () => {
                         
                         <div className='col-lg-6'>
                             <div className='theBlogContent'>
-                                <img src={ImgSix} alt='...' className='mx-auto d-block theBlogImg' />
+                                <img src={ImgSix} alt='...' className='mx-auto d-block theBlogImg img-fluid' />
                                 <div className='blog-wrap'>
                                     <div className='blog-span d-flex pt-3'>
                                         <span>
@@ -171,7 +171,7 @@ const BlogContent = () => {
                         
                         <div className='col-lg-6'>
                             <div className='theBlogContent'>
-                                <img src={ImgSeven} alt='...' className='mx-auto d-block theBlogImg' />
+                                <img src={ImgSeven} alt='...' className='mx-auto d-block theBlogImg img-fluid' />
                                 <div className='blog-wrap'>
                                     <div className='blog-span d-flex pt-3'>
                                         <span>
@@ -259,7 +259,7 @@ const BlogContent = () => {
                     </div>
                 </div>
                 <div className='col-lg-12 text-center pb-5 pt-3'>
-                    <button type="button" className="btn btn-outline-primary rounded-pill btn-lg mt-4 fs-6 OfferGetStartedOffer">  See all  </button>
+                    <button type="button" className="btn btn-outline-primary rounded-pill mt-4 btn-xl OfferGetStartedOffer">  See all  </button>
                 </div>
             </div>
         </div>

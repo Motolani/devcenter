@@ -13,7 +13,7 @@ import OfferImgMobile from "../../images/offerNavImgMobile.png"
 
 const OfferNav = () => {
   return (
-    <div className='offerNav pb-5'>
+    <div className='offerNav'>
         <nav id="thecaro aboutStyle" className="navbar navbar-expand-lg navcarousel">
             <div className="container-fluid">
               <Link className="navbar-brand Logo-link pt-3" to="/">
@@ -55,12 +55,12 @@ const OfferNav = () => {
             <div className='offerPostContent'>
                 <div className='row mt-3'>
                     <div className='col-md-5  mt-3 pt-5'>
-                        <div className='offerLeftContent pt-5 text-start'>
+                        <div className='offerLeftContent text-start'>
                            <p className='offer-p1'>Service we Offer</p>
                             <h2>DevCenter Innovation</h2>
                             <h3>The new way to achieve <br /> your organisation's goal</h3>
                             <p className='offer-p2'>Devcenter Innovation Limited is a software <br />company that offers various services</p>
-                            <Link to="/offer" className="btn btn-outline-primary rounded-pill btn-lg mt-4 fs-6 OfferGetStartedOffer">Get Started</Link>
+                            <Link to="/offer" className="btn btn-outline-primary rounded-pill mt-4 btn-xl OfferGetStartedOffer">Get Started</Link>
                         </div>
                     </div>
                     <div className='col-md-7'>
@@ -92,7 +92,7 @@ const OfferNav = () => {
                             </div>
                             <div className='OfferMobile'>
                                     <div className=' col-sm-12'>
-                                        <img className='offerRightImgTwoMobile mx-auto d-block rounded ' src={OfferImgMobile} alt='...' />
+                                        <img className='offerRightImgTwoMobile mx-auto d-block rounded img-fluid' src={OfferImgMobile} alt='...' />
                                     </div>
                                 </div>
                         </div>

@@ -53,7 +53,7 @@ const HomeNav = () => {
             <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
               <div className="carousel-inner">
               <div className="overlay">
-                <div className="row homeOverlayWeb">
+                {/* <div className="row homeOverlayWeb">
                   <div className="col-md-6 one">
                     <h1>Seamless Innovation</h1>
                     <p>
@@ -66,9 +66,9 @@ const HomeNav = () => {
                   <div className="col-md-6 two">
                     <img className='overlayimg' src={OverlayImg} alt=".." />
                   </div>
-                </div>
+                </div> */}
                 
-                <div className="homeOverlayTab">
+                {/* <div className="homeOverlayTab">
                   <h1 className="fw-bold pt-4">Collaboration</h1>
                   <p>
                     To ensure that every project is built utilizing an AGILE methodology, <br />
@@ -76,18 +76,74 @@ const HomeNav = () => {
                     to identify the best solution to enhance and <br />
                     integrate with your business requirements.
                   </p>
-                </div>
-                <div className="homeOverlayMobile  pt-5">
+                </div> */}
+                {/* <div className="homeOverlayMobile">
                   <h1 className="fw-bold pt-4">Building Scalable Solutions</h1>
-                </div>
+                  <p >
+                        We are a global software development company with<br /> over a decade
+                        of experience in building mobile & web<br />  
+                        digital products
+                        for tech founders, start-ups, and <br />
+                        mid & large-sized organisations
+                    </p>
+                </div> */}
               </div>
                 <div className="carousel-item active">
+                  <div className="overlay">
+                    <div className="homeOverlayWeb none-img">
+                      <h1 className="fw-bold pt-4">Building Scalable Solutions</h1>
+                      <p >
+                            We are a global software development company with<br /> over a decade
+                            of experience in building mobile & web<br />  
+                            digital products
+                            for tech founders, start-ups, and <br />
+                            mid & large-sized organisations
+                        </p>
+                    </div>
+                  </div>
                   <img src={CarouselImg1} className="d-block w-100 navCaroImg" alt="..."/>
                 </div>
                 <div className="carousel-item">
+                <div className="overlay">
+                    <div className="row homeOverlayWeb">
+                    <div className="col-12 three">
+                        <h1 className="fw-bold pt-4">Seamless Innovation</h1>
+                        <p>
+                          As a global software development company Innovation sits <br />
+                          at the nexus  of business value creation and digitalization. <br />
+                          We want mid-sized and large-sized businesses, start-ups, <br />and tech entrepreneurs to have better experience developing <br />
+                          mobile and online digital goods.
+                        </p>
+                      </div>
+                      <div className="col-md-6 one">
+                        <h1>Seamless Innovation</h1>
+                        <p>
+                          As a global software development company Innovation sits <br />
+                          at the nexus  of business value creation and digitalization. <br />
+                          We want mid-sized and large-sized businesses, start-ups, <br />and tech entrepreneurs to have better experience developing <br />
+                          mobile and online digital goods.
+                        </p>
+                      </div>
+                      <div className="col-md-6 two">
+                        <img className='overlayimg' src={OverlayImg} alt=".." />
+                      </div>
+                      
+                    </div>
+                  </div>
                   <img src={CarouselImg4} className="d-block w-100 navCaroImg" alt="..."/>
                 </div>
                 <div className="carousel-item">
+                  <div className="overlay">
+                    <div className="homeOverlayWeb third-caro none-img">
+                      <h1 className="fw-bold pt-4">Collaboration</h1>
+                      <p>
+                        To ensure that every project is built utilizing an AGILE methodology, <br />
+                        we collaborate with the finest procedures and policies <br />
+                        to identify the best solution to enhance and <br />
+                        integrate with your business requirements.
+                      </p>
+                    </div>
+                  </div>
                   <img src={CarouselImg5} className="d-block w-100 navCaroImg" alt="..."/>
                 </div>
               </div>

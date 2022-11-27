@@ -99,7 +99,7 @@ const OfferBlogPosts = () => {
             </div>
             
             <div className='col-lg-12 text-center pb-4'>
-                <Link to="/blog" className="btn btn-outline-primary rounded-pill btn-lg mt-4 fs-6 OfferGetStartedOffer">  See all  </Link>
+                <Link to="/blog" className="btn btn-outline-primary rounded-pill mt-4 btn-xl OfferGetStartedOffer">  See all  </Link>
             </div>
         </div>
     </div>

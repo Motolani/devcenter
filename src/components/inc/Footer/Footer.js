@@ -1,6 +1,7 @@
 import React from 'react';
 import FooterImg from '../../images/FooterImg.png';
 import FooterShape from '../../images/FootShape.png';
+import FooterShape2 from '../../images/FootShape2.png';
 import FooterLogo from '../../images/DevC.png';
 import IgImg from '../../images/IG.png';
 import FbImg from '../../images/fb.png';
@@ -19,7 +20,7 @@ const Footer = () => {
             </div>
             <div className='row ' >
             <div className='col-4'></div>
-            <div className='col-8 FooterBottom pt-5' style={{ backgroundImage:`url(${FooterShape})` }}>
+            <div className='col-8 FooterBottom pt-5' style={{ backgroundImage:`url(${FooterShape2})` }}>
                 <div className='row'>
                     <div className='col-3 offset-1 FootSecOne'>
                         <img src={FooterLogo} alt='...'  className='pt-3 FooterLogo' />
@@ -33,6 +34,7 @@ const Footer = () => {
                                 <li><Link className="footerNav" to="/about">About</Link></li>
                                 <li><Link className="footerNav" to="/offer">We Offer</Link></li>
                                 <li><Link className="footerNav" to="/blog">Blog</Link></li>
+                                <li><Link className="footerNav" to="/contact">Contact</Link></li>
                             </ul>
                             <div className='row pt-5 contactsFooter'>
                                 <div className='col-8 text-center'>

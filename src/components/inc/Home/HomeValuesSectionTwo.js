@@ -6,8 +6,8 @@ import Star from '../../images/Vectorstar.png';
 
 const HomeValuesSectionTwo = () => {
   return (
-    <div className='text-center HomeValuesSectionTwo'>
-      <div className="row content">
+    <div className='HomeValuesSectionTwo'>
+      <div className="row content text-center">
         <div className="col-lg-3 ">
             <div class='values-border mb-4'>
                 <img src={Bulb} alt="bulb" height={40} className='mt-2'/>
@@ -37,7 +37,7 @@ const HomeValuesSectionTwo = () => {
                 <img src={Hands} alt="Handshake" height={40} className='mt-3'/>
                 <h4 className='fw-bold'>Innovation</h4>
                 <p>
-                    Using the tools and methods that are 
+                    Using the tools and methods that are 
                     highly regarded in the tech industry, 
                     we constantly work to deliver fresh 
                     and innovative business solutions.
@@ -57,13 +57,13 @@ const HomeValuesSectionTwo = () => {
             </div>
         </div>
       </div>
-      <div className='row section-two text-center'>
+      <div className='row section-two'>
         <div className="col-md-6 relevance">
             <h3 className='fw-bold'>How we’ve gained global relevance</h3>
             <p>
                 We have collaborated with brands and companies in a <br/> variety of industries, which has allowed us to broaden <br/> our reach and continuously offer digital capabilities.
             </p>
-            <div className='row justify-content-center inner-row'>
+            <div className='row inner-row'>
                 <div className='col-4 text-start'>
                     <h2 className='fw-bolder'>60+</h2>
                     <span>Satisfied Clients</span>

@@ -30,7 +30,7 @@ const WorkWeDone = () => {
                             <p> 
                                 We consistently deliver on contracts to stakeholders and <br/>ensure that every assignment we undertake meets the <br />needs of the client, thereby providing the solution <br />necessary for the business to grow
                             </p>
-                            <Link to="/contact" className="btn btn-outline-primary rounded-pill btn-lg mt-4 fs-6 OfferGetStartedOffer ">Contact Us</Link>
+                            <Link to="/contact" className="btn btn-outline-primary rounded-pill mt-4 btn-xl OfferGetStartedOffer ">Contact Us</Link>
                         </div>
                     </div>
                     <div className='col-sm-12 pt-2'>
@@ -54,25 +54,25 @@ const WorkWeDone = () => {
                                     className="mySwiper"
                                 >
                                     <SwiperSlide>
-                                        <img src={work14} alt="img1" className='rounded'/>
+                                        <img src={work14} alt="img1" className='rounded img-fluid'/>
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <img src={work13} alt="img1" className='rounded'/>
+                                        <img src={work13} alt="img1" className='rounded img-fluid'/>
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <img src={work11} alt="img1" className='rounded'/>
+                                        <img src={work11} alt="img1" className='rounded img-fluid'/>
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <img src={work12} alt="img1" className='rounded'/>
+                                        <img src={work12} alt="img1" className='rounded img-fluid'/>
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <img src={work15} alt="img1" className='rounded'/>
+                                        <img src={work15} alt="img1" className='rounded img-fluid'/>
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <img src={work16} alt="img1" className='rounded'/>
+                                        <img src={work16} alt="img1" className='rounded img-fluid'/>
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <img src={work17} alt="img1" className='rounded'/>
+                                        <img src={work17} alt="img1" className='rounded img-fluid'/>
                                     </SwiperSlide>
                                 </Swiper>
                             
