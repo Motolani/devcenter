@@ -8,7 +8,7 @@ const CoWorkingSpace = () => {
             <div className='row'>
                 <div className='col-sm-4'>
                     <div className='CoWorkingSpaceBorder'>
-                        <div className='CoWorkingContent pt-5'>
+                        <div className='CoWorkingContent'>
                             <h3>Call us To Use our <br />Co-working Space</h3>
                             <p>A peaceful coworking environment that <br />enables uninterrupted work</p>
                             <Link to="/contact" className="btn btn-outline-primary rounded-pill btn-xl mt-4  CoworkGetStarted">Call Us Now</Link>

@@ -56,7 +56,7 @@ const OfferNav = () => {
                 <div className='row mt-3'>
                     <div className='col-md-5  mt-3 pt-5'>
                         <div className='offerLeftContent text-start'>
-                           <p className='offer-p1'>Service we Offer</p>
+                           <p className='offer-p1'>Service We Offer</p>
                             <h2>DevCenter Innovation</h2>
                             <h3>The new way to achieve <br /> your organisation's goal</h3>
                             <p className='offer-p2'>Devcenter Innovation Limited is a software <br />company that offers various services</p>

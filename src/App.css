@@ -1,6 +1,9 @@
 .dvc{
     width: 98vw;
 }
+.footerCall{
+    display: none;
+}
 .navCaroImg {
     min-height: 338.84px;
     min-width: auto;
@@ -508,6 +511,10 @@ max-height: 345px;
 @media only screen and (max-width: 540px) {
     .copyright{
         display: none;
+    }
+    .footerCall{
+        display: block;
+        color: #FFFFFF;
     }
 }
 @media only screen and (max-width: 280px) {
@@ -1216,17 +1223,23 @@ text-align: center;
     padding-top: 3rem!important;
 }
 .offer-p1{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 135%;
-    letter-spacing: 13.5px;
-    color: #1B4DE0;
-}
-.offerLeftContent h2{
     font-style: normal;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 45px;
     line-height: 49px;
+    color: #1B4DE0;
+}
+
+@media only screen and (max-width: 414px) {
+    .offer-p1{
+        font-size: 35px;
+    }
+}
+.offerLeftContent h2{
+    font-weight: 200;
+    font-size: 26px;
+    line-height: 135%;
+    letter-spacing: 13.5px;
     color: #1B4DE0;
 }
 .offerLeftContent h3{
@@ -1414,6 +1427,7 @@ text-align: center;
 }
 .CoWorkingContent{
     margin-left: 50px;
+    padding-top: 3rem!important;
 }
 .Services{
     background-repeat: no-repeat;
@@ -1608,6 +1622,9 @@ text-align: center;
         width: 300px;
         height: 300px;
     }
+    .CoWorkingContent{
+        padding-top: 2.3rem!important;  
+    }   
     .CoWorkingContent h3{
         font-style: normal;
         font-weight: 600;
@@ -2077,6 +2094,11 @@ text-align: center;
     padding-top: 30px;
     padding-left: 60px;
 }
+@media only screen and (max-width: 1132px) {
+    .contactBorderContent{
+        padding-left: 0px;
+    }
+}
 .contactBorderContent p{
     font-style: normal;
     font-weight: 400;
@@ -2089,7 +2111,7 @@ text-align: center;
         font-size: 9px !important;
     }
     .mobileFooterNav li{
-        font-size: 13px !important;
+        font-size: 12px !important;
     }
 }
 .homeOverlayMobile p{
@@ -2192,11 +2214,17 @@ text-align: center;
         margin-left: 13% !important;
     }
     .BgContactUsContent {
-        margin-left: 5px;
+        margin-left: 10%;
     }
     .contactBorderBlue {
         margin-left: 0px;
         margin-bottom: 25px;
+    }
+}
+
+@media only screen and (max-width: 414px){
+    .BgContactUsContent {
+        margin-left: 6%;
     }
 }
 
@@ -2212,10 +2240,11 @@ text-align: center;
 }
 @media only screen and (max-width: 746px){
     .contactBorderContent h1{
-        font-size: 25px;
+        /* font-size: 23px; */
+        padding-bottom: 18px;
     }
     .contactBorderContent p{
-        font-size: 10px;
+        /* font-size: 13px; */
     }
     .ContactUsAddress{
         padding-bottom: 0px !important;
@@ -2228,6 +2257,8 @@ text-align: center;
         padding-bottom: 0px !important;
     }
 }
+
+
 @media only screen and (max-width: 535px){
     .contactUsFormHeading p{
         font-size: 12px !important;
@@ -2235,12 +2266,26 @@ text-align: center;
     .contactUsFormHeading h1{
         font-size: 28px !important;
     }
+
 }
 @media only screen and (max-width: 440px){
     .contactBorderContent{
         padding-left: 5px !important;
     }
     
+}
+
+@media only screen and (max-width: 512px){
+    .contactBorderContent h1{
+        font-size: 19px;
+        padding-bottom: 18px;
+    }
+    .contactBorderContent p{
+        font-size: 11px;
+    }
+    .ContactUsAddress img{
+        /* display: none; */
+    }
 }
 @media only screen and (max-width: 400px){
     .contactUsFormHeading p{
@@ -2413,5 +2458,32 @@ text-align: center;
     .offerPostContent{
         margin-bottom: 30px;
         
+    }
+    .BlogContent {
+        margin-left: 0px;
+    }
+}
+@media only screen and (max-width: 414px) {
+    .ContactUsSocials{
+        padding-bottom: 20px !important;
+    }
+}
+@media only screen and (max-width: 414px) {
+    .contactBorderBlue {
+        height: 370px;
+    }
+    .otherBorderView{
+        margin-left: 15% !important;
+    }
+}
+.p-nbr{
+    display: none;
+}
+@media only screen and (max-width: 633px) {
+    .p-br{
+        display: none !important;
+    }
+    .p-nbr{
+        display: block !important;
     }
 }

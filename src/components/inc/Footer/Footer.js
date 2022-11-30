@@ -51,16 +51,16 @@ const Footer = () => {
                     <div className='col-2 offset-1 pt-2'>
                         <div className='SocialFoot'>
                             <div className='socialsFooter text-center justify-content-center'>
-                                <a href='https://instagram.com/devcenter_africa?igshid=YmMyMTA2M2Y='><img src={IgImg} alt='IG' className='pt-1' width={16} /></a>
+                                <a href='https://instagram.com/devcenter_africa?igshid=YmMyMTA2M2Y=' target="_blank"><img src={IgImg} alt='IG' className='pt-1' width={16} /></a>
                             </div>
                             <div className='socialsFooter text-center justify-content-center'>
-                                <a href=''><img src={FbImg} alt='FbImg' className='pt-1' width={16} /></a>
+                                <a href='#' target="_blank"><img src={FbImg} alt='FbImg' className='pt-1' width={16} /></a>
                             </div>
                             <div className='socialsFooter text-center justify-content-center'>
-                                <a href='https://www.linkedin.com/company/devcenterafrica/'><img src={LinkedInImg} alt='LinkedInImg' className='pt-1' width={16}  /></a>
+                                <a href='https://www.linkedin.com/company/devcenterafrica/' target="_blank"><img src={LinkedInImg} alt='LinkedInImg' className='pt-1' width={16}  /></a>
                             </div>
                             <div className='socialsFooter text-center justify-content-center'>
-                                <a href='https://twitter.com/devcenterafrica?s=11&t=4Z11r4vBfwR9OfTnbUdPEw' ><img src={TwitterImg} alt='TwitterImg' className='pt-1' width={16} /></a>
+                                <a href='https://twitter.com/devcenterafrica?s=11&t=4Z11r4vBfwR9OfTnbUdPEw' target="_blank"><img src={TwitterImg} alt='TwitterImg' className='pt-1' width={16} /></a>
                             </div>
                         </div>
                     </div>
@@ -104,16 +104,16 @@ const Footer = () => {
                         <div className='col-sm-2 offset-sm-1 pt-2'>
                             <div className='SocialFoot'>
                                 <div className='socialsFooter text-center justify-content-center'>
-                                    <Link to=''><img src={IgImg} alt='IG' className='pt-1' width={16} /></Link>
+                                    <a href='https://instagram.com/devcenter_africa?igshid=YmMyMTA2M2Y=' target="_blank"><img src={IgImg} alt='IG' className='pt-1' width={16} /></a>
                                 </div>
                                 <div className='socialsFooter text-center justify-content-center'>
-                                    <Link to=''><img src={FbImg} alt='FbImg' className='pt-1' width={16} /></Link>
+                                    <a href='#' target="_blank"><img src={FbImg} alt='FbImg' className='pt-1' width={16} /></a>
                                 </div>
                                 <div className='socialsFooter text-center justify-content-center'>
-                                    <Link to=''><img src={LinkedInImg} alt='LinkedInImg' className='pt-1' width={16}  /></Link>
+                                    <a href='https://www.linkedin.com/company/devcenterafrica/' target="_blank"><img src={LinkedInImg} alt='LinkedInImg' className='pt-1' width={16}  /></a>
                                 </div>
                                 <div className='socialsFooter text-center justify-content-center'>
-                                    <Link to=''><img src={TwitterImg} alt='TwitterImg' className='pt-1' width={16} /></Link>
+                                    <a href='https://twitter.com/devcenterafrica?s=11&t=4Z11r4vBfwR9OfTnbUdPEw' target="_blank"><img src={TwitterImg} alt='TwitterImg' className='pt-1' width={16} /></a>
                                 </div>
                             </div>
                         </div>
@@ -134,16 +134,16 @@ const Footer = () => {
                         <div className=' pt-2'>
                             <div className='SocialFoot text-center justify-content-center pt-2'>
                                 <div className='socialsFooter '>
-                                    <Link to=''><img src={IgImg} alt='IG' className='pt-1' width={16} /></Link>
+                                <a href='https://instagram.com/devcenter_africa?igshid=YmMyMTA2M2Y=' target="_blank"><img src={IgImg} alt='IG' className='pt-1' width={16} /></a>
                                 </div>
                                 <div className='socialsFooter text-center justify-content-center'>
-                                    <Link to=''><img src={FbImg} alt='FbImg' className='pt-1' width={16} /></Link>
+                                    <a href='#' target="_blank"><img src={FbImg} alt='FbImg' className='pt-1' width={16} /></a>
                                 </div>
                                 <div className='socialsFooter text-center justify-content-center'>
-                                    <Link to=''><img src={LinkedInImg} alt='LinkedInImg' className='pt-1' width={16}  /></Link>
+                                    <a href='https://www.linkedin.com/company/devcenterafrica/' target="_blank"><img src={LinkedInImg} alt='LinkedInImg' className='pt-1' width={16}  /></a>
                                 </div>
                                 <div className='socialsFooter text-center justify-content-center'>
-                                    <Link to=''><img src={TwitterImg} alt='TwitterImg' className='pt-1' width={16} /></Link>
+                                    <a href='https://twitter.com/devcenterafrica?s=11&t=4Z11r4vBfwR9OfTnbUdPEw' target="_blank"><img src={TwitterImg} alt='TwitterImg' className='pt-1' width={16} /></a>
                                 </div>
                             </div>
                         </div>
@@ -154,16 +154,19 @@ const Footer = () => {
                     <div className='mobileHeaderFont copyright'>
                         <p>Copyright © 2022 Devcenter Innovation Powered by <br/>Devcenter Innovation</p>
                     </div>
+                    <div className='footerCall'>
+                        <p>Tel: +234 1 630 4704</p>
+                    </div>
                     
                 </div>
                 <div className='col-6'>
                     <div className='mobileFooterNav text-center'> 
                         <ul>
-                            <li>Home</li>
-                            <li>About</li>
-                            <li>Services</li>
-                            <li>Blog</li>
-                            <li>Contact</li>
+                            <li><Link className="nav-link fw-bold" aria-current="page" to="/">Home</Link></li>
+                            <li><Link className="nav-link fw-bold" to="/about">About</Link></li>
+                            <li><Link className="nav-link fw-bold" to="/offer">Services</Link></li>
+                            <li><Link className="nav-link fw-bold" to="/blog">Blog</Link></li>
+                            <li><Link className="nav-link fw-bold" to="/contact">Contact</Link></li>
                         </ul>
                     </div>
                 </div>

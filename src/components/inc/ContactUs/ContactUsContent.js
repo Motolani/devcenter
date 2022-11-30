@@ -54,7 +54,7 @@ const ContactUsContent = () => {
                                         </div>
                                     </div>
                                     
-                                    <div className='ContactUsTel row pb-4'>
+                                    <div className='ContactUsSocials row pb-4'>
                                         <div className='col-sm-2'>
                                             <a href='https://twitter.com/devcenterafrica?s=11&t=4Z11r4vBfwR9OfTnbUdPEw'>
                                                 <img src={TwitterIcon} alt='..' />
@@ -111,8 +111,9 @@ const ContactUsContent = () => {
                                         </p>
                                     </div>
                                     <div className='contactUsForm pt-5 col-12'>
-                                        <form>
-                                            <div className='row'>
+                                        <div className='row'>
+                                        
+                                            <form>
                                                 <div className='col-8'>
                                                     <input className="form-control" type="text" placeholder="Full name" aria-label="default input example" />
                                                 </div>
@@ -128,9 +129,10 @@ const ContactUsContent = () => {
                                                 <div className="valuesOneText col-8">
                                                     <button type="submit" className="contactSubmit btn btn-outline-primary rounded-pill btn-xl">Send Message</button>
                                                 </div>
-                                            </div>
                                             
-                                        </form>
+                                            </form>
+                                        </div>
+                                        
                                     </div>
                                     
                                     <div className='contactBorderBlue col-8 mt-5'>
@@ -141,8 +143,11 @@ const ContactUsContent = () => {
                                                     <img src={AddressIcon} alt='..' />
                                                 </div>
                                                 <div className='col-11'>
-                                                    <p>
+                                                    <p className='p-br'>
                                                         Address: 21 Nyesi Ibrahim Tella, Oral-Estate, <br />Eleganza Bustop, Lekki - Epe Expy, Lagos 
+                                                    </p>
+                                                    <p className='p-nbr'>
+                                                        Address: 21 Nyesi Ibrahim Tella, Oral-Estate, Eleganza Bustop, Lekki - Epe Expy, Lagos 
                                                     </p>
                                                 </div>
                                                 
@@ -170,19 +175,19 @@ const ContactUsContent = () => {
                                                 </div>
                                             </div>
                                             
-                                            <div className='ContactUsTel row'>
+                                            <div className='ContactUsSocials row'>
                                                 <div className='col-2'>
-                                                    <a href='https://twitter.com/devcenterafrica?s=11&t=4Z11r4vBfwR9OfTnbUdPEw'>
+                                                    <a href='https://twitter.com/devcenterafrica?s=11&t=4Z11r4vBfwR9OfTnbUdPEw' target="_blank">
                                                         <img src={TwitterIcon} alt='..' />
                                                     </a>
                                                 </div>
                                                 <div className='col-2'>
-                                                    <a href=''>
+                                                    <a href='' target="_blank">
                                                         <img src={FbIcon} alt='..' />
                                                     </a>
                                                 </div>
                                                 <div className='col-2'>
-                                                    <a href='https://instagram.com/devcenter_africa?igshid=YmMyMTA2M2Y='>
+                                                    <a href='https://instagram.com/devcenter_africa?igshid=YmMyMTA2M2Y=' target="_blank">
                                                         <img src={IgIcon} alt='..' />
                                                     </a>
                                                 </div>
