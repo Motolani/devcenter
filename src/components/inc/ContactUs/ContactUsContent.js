@@ -61,7 +61,7 @@ const ContactUsContent = () => {
                                             </a>
                                         </div>
                                         <div className='col-sm-2'>
-                                            <a href=''>
+                                            <a href='https://www.facebook.com/devcenter.africa'>
                                                 <img src={FbIcon} alt='..' />
                                             </a>
                                         </div>
@@ -182,7 +182,7 @@ const ContactUsContent = () => {
                                                     </a>
                                                 </div>
                                                 <div className='col-2'>
-                                                    <a href='' target="_blank">
+                                                    <a href='https://www.facebook.com/devcenter.africa' target="_blank">
                                                         <img src={FbIcon} alt='..' />
                                                     </a>
                                                 </div>

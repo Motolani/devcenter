@@ -54,7 +54,7 @@ const Footer = () => {
                                 <a href='https://instagram.com/devcenter_africa?igshid=YmMyMTA2M2Y=' target="_blank"><img src={IgImg} alt='IG' className='pt-1' width={16} /></a>
                             </div>
                             <div className='socialsFooter text-center justify-content-center'>
-                                <a href='#' target="_blank"><img src={FbImg} alt='FbImg' className='pt-1' width={16} /></a>
+                                <a href='https://www.facebook.com/devcenter.africa' target="_blank"><img src={FbImg} alt='FbImg' className='pt-1' width={16} /></a>
                             </div>
                             <div className='socialsFooter text-center justify-content-center'>
                                 <a href='https://www.linkedin.com/company/devcenterafrica/' target="_blank"><img src={LinkedInImg} alt='LinkedInImg' className='pt-1' width={16}  /></a>
@@ -107,7 +107,7 @@ const Footer = () => {
                                     <a href='https://instagram.com/devcenter_africa?igshid=YmMyMTA2M2Y=' target="_blank"><img src={IgImg} alt='IG' className='pt-1' width={16} /></a>
                                 </div>
                                 <div className='socialsFooter text-center justify-content-center'>
-                                    <a href='#' target="_blank"><img src={FbImg} alt='FbImg' className='pt-1' width={16} /></a>
+                                    <a href='https://www.facebook.com/devcenter.africa' target="_blank"><img src={FbImg} alt='FbImg' className='pt-1' width={16} /></a>
                                 </div>
                                 <div className='socialsFooter text-center justify-content-center'>
                                     <a href='https://www.linkedin.com/company/devcenterafrica/' target="_blank"><img src={LinkedInImg} alt='LinkedInImg' className='pt-1' width={16}  /></a>
@@ -137,7 +137,7 @@ const Footer = () => {
                                 <a href='https://instagram.com/devcenter_africa?igshid=YmMyMTA2M2Y=' target="_blank"><img src={IgImg} alt='IG' className='pt-1' width={16} /></a>
                                 </div>
                                 <div className='socialsFooter text-center justify-content-center'>
-                                    <a href='#' target="_blank"><img src={FbImg} alt='FbImg' className='pt-1' width={16} /></a>
+                                    <a href='https://www.facebook.com/devcenter.africa' target="_blank"><img src={FbImg} alt='FbImg' className='pt-1' width={16} /></a>
                                 </div>
                                 <div className='socialsFooter text-center justify-content-center'>
                                     <a href='https://www.linkedin.com/company/devcenterafrica/' target="_blank"><img src={LinkedInImg} alt='LinkedInImg' className='pt-1' width={16}  /></a>
